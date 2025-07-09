@@ -1,0 +1,322 @@
+body {
+   overflow: hidden;
+}
+
+.menu{
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+   padding-left: 510px;
+   position: absolute;
+   top: -10px;
+   font-family: 'roboto', sans-serif;
+   font-size: 24px;
+   margin: 0px;
+   cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    float: left;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    top:-70px;
+    font-family: 'roboto', sans-serif;
+    cursor: pointer;
+}
+#logoimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    right: 150px;
+    margin: 0px;
+    padding: 10px;
+}
+#name{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;   
+}
+
+.profile{
+   float: right;
+   display: flex;
+}
+#profileimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    top: -35px;
+    cursor: pointer;
+}
+.orderbt{
+    display: flex;
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 30px;    
+}
+
+#order{
+    background-color: #ffbb00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 1000;
+    cursor: pointer;
+    font-family: 'roboto', sans-serif;
+    border-radius: 15px;
+}
+
+#line1{
+    position: relative;
+    right: 160px;
+    top: 60px;
+    font-size: 65px;
+}
+
+#line2{
+    position: relative;
+    right: 200px;
+    top: -10px;
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    color: #ffbb00;
+}
+
+#line3{
+    position: relative;
+    left: 215px;
+    top: -150px;
+    font-size: 65px;
+}
+
+p{
+    position: relative;
+    left: 70px;
+    top: -180px;
+    font-size: 20px;
+    width: 50%;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+}
+
+.search{
+    position: relative;
+    top: -100px;
+    left: 60px;
+    
+}
+
+#searchbt{
+    border: 1px solid black;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    position: relative;
+    bottom: 55px;
+    margin: 0px;
+}
+
+#searchbtn{
+    border: none;
+    background-color: #ffbb00;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    font-size: 30px;
+    position: relative ;
+    bottom: 50px;
+    right: 70px;
+    cursor: pointer;
+}
+
+.foodin{
+    display: flex;
+    background-color: rgb(58, 56, 56);
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 30px;    
+    left: 230px;
+    border-radius: 1000px;
+}
+
+.foodot{
+    background-color: #ffbb00;
+    width: 650px;
+    height: 600px;
+    position: relative;
+    top: -100px;    
+    left: 10px;
+    border-radius: 150px;
+}
+
+
+#breakfast{
+    position: relative;
+    right: 170px;
+    top: 190px;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+#breakfastimg{
+    position: relative;
+    right: 195px;
+    width: 160px;
+    height: 160px;
+}
+
+#lunch{
+    position: relative;
+    left: -92px;
+    top: 190px;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+}
+#lunchimg{
+    position: relative;
+    right: 134px;
+    width: 150px;
+    height: 150px;
+}
+
+#dinner{
+    position: relative;
+    right: 35px;
+    top: 190px;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin: 0px;
+}
+#dinnerimg{
+    position: relative;
+    right: 90px;
+    top: -20px;
+    width: 180px;
+    height: 180px;
+}
+
+.discover{
+    display: flex;
+    width: 575px;
+    height: 420px;
+    background-color: black;
+    position: relative;
+    bottom: 1100px;
+    left: 850px;
+    border-radius: 110px; 
+    justify-content: center; 
+    overflow: hidden;
+}
+
+#discover{
+    color: rgb(255, 255, 255);
+    font-family: 'roboto', sans-serif;
+    position: relative;
+    z-index: 1;
+    top: 350px;
+}
+
+.discoverbtn{
+    display: flex;
+    position: relative;
+    bottom: 1460px;
+    left: 900px;
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(158, 157, 153);
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    opacity: 0.8;
+
+    
+}
+
+#dishead{
+    position: relative;
+    left: 30px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-family: 'roboto', sans-serif;
+
+}
+
+#discoverbtn{
+    position: relative;
+    left: 90px;
+    top: 5px;
+    background-color: #000000;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 40px;
+    rotate: 45deg;
+    cursor: pointer;
+    border: none;
+    
+}
+#discoverimg {
+    width: 100%;         /* Full width of the container */
+    height: 100%;        /* Full height of the container */
+    object-fit: cover;   /* Ensures the image fills and crops nicely */
+    position: absolute;  /* Keeps text on top */
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.discover2{
+    display: flex;
+    width: 575px;
+    height: 420px;
+    background-color: black;
+    position: relative;
+    bottom: 1150px;
+    left: 850px;
+    border-radius: 110px; 
+    justify-content: center; 
+}
+#discover2{
+    color: rgb(255, 255, 255);
+    font-family: 'roboto', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.discover3{
+    display: flex;
+    width: 575px;
+    height: 420px;
+    background-color: rgb(142, 142, 142);
+    position: relative;
+    bottom: 1460px;
+    left: 850px;
+    border-radius: 110px; 
+    justify-content: center; 
+    overflow: hidden;
+}
+#discover3img{
+    
+   width: 100%;
+   height: 100%;
+   position: absolute;  /* Keeps text on top */
+   bottom: 120px;
+   left: 0;
+}
