@@ -64,7 +64,7 @@ body {
 }
 
 #order{
-    background-color: #ffbb00;
+
     color: black;
     border: none;
     padding: 10px 20px;
@@ -73,6 +73,13 @@ body {
     cursor: pointer;
     font-family: 'roboto', sans-serif;
     border-radius: 15px;
+    border: 1px solid black;
+}
+
+#order:hover{
+    background-color: #ffbb00;
+    color: black;
+    transition: 10ms;
 }
 
 #line1{
@@ -131,7 +138,6 @@ p{
 
 #searchbtn{
     border: none;
-    background-color: #ffbb00;
     width: 55px;
     height: 55px;
     border-radius: 50px;
@@ -140,6 +146,12 @@ p{
     bottom: 50px;
     right: 70px;
     cursor: pointer;
+    border: 1px solid black;
+}
+#searchbtn:hover{
+    background-color: #ffbb00;
+    color: black;
+    transition: 10ms;
 }
 
 .foodin{
